@@ -12,7 +12,7 @@ Created on Sun May  2 13:38:13 2021
 import gmaps
 import gmaps.datasets
 
-gmaps.configure(api_key='AIzaSyBweyv6KcCMpgd-lfa1GDNYkKHAU5o6fIM')
+gmaps.configure(api_key='')
 
 earthquake_df = gmaps.datasets.load_dataset_as_df('earthquakes')
 earthquake_df.head()
